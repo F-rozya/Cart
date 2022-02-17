@@ -1,0 +1,27 @@
+@media (max-width: 799px){
+      .carts-block_1{
+            flex-direction: column;
+      }
+      .cart_1 {
+            background-color: white;
+            box-shadow:3px 6px 10px #CBBDBD;
+            width:100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 40px;
+      }
+      .text {
+            margin: 5px 30% 20px 0px;
+            font-size: 18px;
+            color: #55999A;
+      }
+}
+@media (max-width: 520px){
+      .text {
+            margin: 5px 0px 20px 0px;
+            font-size: 18px;
+            color: #55999A;
+      }
+}
